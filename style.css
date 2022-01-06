@@ -1,0 +1,18 @@
+html {
+    background: black;
+    color: white;
+}
+body {display: grid; place-items: center; margin: 0; font-family: Inter, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5em; }
+
+.Container { margin: 2vh; background: rgb(80, 178, 190); padding: 2rem; border-radius: 2rem; font-size: clamp(1rem, 2vw, 2rem);
+    line-height: 1.5em; }
+    .header { }
+        .Avatar { display: block; float: left; width: 112px; height: auto; margin: 0 1em 0 0; border-radius: 50%; }
+        .TitlulPaginii { display: block; margin: 0; font-size: clamp(2rem, 6vw, 4rem); line-height: 1em; }
+        .DescrierePrincipala { display: block; margin: 0.5em;}
+    .main { clear: both; }
+        .ListaLinkuri { display: block; margin: 0; padding: 0; border-top: 1px solid #fff; }
+            .ListaItem { display: block; margin: 0; border-bottom: 1px solid #fff; }
+                .ListaLink { display: block; padding: 0; border-bottom: 1px solid #fff; text-decoration: none; }
+                    .ListaTitlu, .ListaText { display: block; margin: 0; padding: 0; border-bottom: 1px solid #fff; font-size: 1em; line-height: 1.5 em; }
+                    
